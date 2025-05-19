@@ -1,0 +1,79 @@
+body {
+    background-color: black; /* Change the background color */
+    font-family: Arial, sans-serif; /* Choose a suitable font */
+    background-image: url("../Images/movie-9pvmdtvz4cb0xl37.jpg");
+  }
+  
+  .center-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black; /* White border */
+    border-radius: 20px; /* Smoother border radius */
+    width: 300px;
+    height: 320px;
+    text-align: center;
+    color: #333333; /* Darker text color */
+    background-color:rgb(40, 2, 40); /* White background */
+    padding: 20px; /* Adjusted padding */
+    opacity: 0.8;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+  }
+  
+  .text-field {
+    padding: 10px;
+    margin: 20px 0;
+    border: 2px solid #cccccc; /* Lighter border color */
+    border-radius: 8px; /* Softer border radius */
+    font-size: 14px; /* Slightly increased font size */
+    color: #333333; /* Darker text color */
+    width: 80%; /* Adjusted width */
+  }
+  
+  .btn-style {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #333333; /* Darker button color */
+    color: #ffffff; /* Text color */
+    font-size: 14px; /* Slightly increased font size */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  }
+  
+  .btn-style:hover {
+    background-color: #555555; /* Darker color on hover */
+    color: #ffffff; /* Text color on hover */
+  }
+  
+  .an-btn {
+    margin-top: 10px;
+    border: none;
+    background-color: #333333; /* Darker button color */
+    color: #ffffff; /* Text color */
+    font-size: 12px; /* Adjusted font size */
+    padding: 8px 16px;
+    border-radius: 5px; /* Smoother border radius */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  }
+  
+  .an-btn:hover {
+    background-color: #555555; /* Darker color on hover */
+    color: #ffffff; /* Text color on hover */
+  }
+  
+  #register-div {
+    display: none;
+  }
+  
+  #result-box {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px; /* Slightly increased font size */
+    color:white; /* Darker text color */
+  }

@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    color: white;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 100px 140px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 8px;
+    transition: opacity 0.3s ease;
+    font-size: 30px;
+    border: 2px solid #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+  }
+  
+  .movies {
+    background-color: #3498db;
+  }
+  
+  .music {
+    background-color: #e74c3c;
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+  }
+  
+  .movies {
+    background-color: #3498db;
+    background-image: url('https://w0.peakpx.com/wallpaper/361/823/HD-wallpaper-avengers-endgame-iron-man-robert-downey-jr-captain-america-chris-evans-bruce-banner-hulk-mark-ruffalo-chris-hemsworth-thor-black-widow-scarlett-johansson-captain-marvel-brie-larson-war.jpg'); /* Replace 'movies-background.jpg' with your image */
+    background-size: cover;
+  }
+  
+  .music {
+    background-color: #e74c3c;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230630/pngtree-wireless-headphones-in-3d-surround-on-a-vibrant-purple-background-image_3691476.jpg'); /* Replace 'music-background.jpg' with your image */
+    background-size: cover;
+  }

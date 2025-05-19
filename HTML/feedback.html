@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Media Feedback Form</title>
+    <link rel="stylesheet" href="./CSS/feedback.css">
+</head>
+<body>
+    <nav>
+        <img src="./Images/multimedia-logo-template-design_883220-587_magic.jpeg" width="80px" height="50px">
+        <a href="./index.html">Home</a>
+    </nav>
+    <h2 style="color: lavender;">We value your feedback! Please take a moment to share your thoughts with us.</h2>
+
+    <form id="feedbackForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+        <button type="submit">Submit Feedback</button>
+    </form>
+
+    <script>
+        document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            // You can add JavaScript code here to handle the form submission, such as sending data to a server.
+
+            alert('Thank you for your feedback! click home to go back');
+            // Optionally, you can redirect the user to another page or perform other actions.
+        });
+    </script>
+
+</body>
+</html>

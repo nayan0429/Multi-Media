@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify - Your favourite music is here</title>
+        <link rel="stylesheet" href="./CSS/style.css">
+        </head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="./Images/multimedia-logo-template-design_883220-587_magic.jpeg" alt="Multi Media"> </li>
+            <li><a href="./index.html" style="text-decoration: none; color:white" >Home</a></li>
+            <!-- <li>About</li> -->
+        </ul>
+        <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search" >
+        </div> 
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Best of PS - All Your Favourites</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Ravi</span>
+                    <span class="songlistplay"><span class="timestamp">03:49 <i id="0" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2">
+                    <span class="songName">Perfect</span>
+                    <span class="songlistplay"><span class="timestamp">04:39 <i id="1" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="3">
+                    <span class="songName">Somewhere Only We know</span>
+                    <span class="songlistplay"><span class="timestamp">03:53 <i id="2" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="4">
+                    <span class="songName">Salame-Ishq Meri jaan</span>
+                    <span class="songlistplay"><span class="timestamp">05:49 <i id="3" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="5">
+                    <span class="songName">Kya Hua Tera Wada</span>
+                    <span class="songlistplay"><span class="timestamp">04:18 <i id="4" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="6">
+                    <span class="songName">Saiyyan</span>
+                    <span class="songlistplay"><span class="timestamp">05:46 <i id="5" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="7">
+                    <span class="songName">I Am In Love</span>
+                    <span class="songlistplay"><span class="timestamp">04:47 <i id="6" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="8">
+                    <span class="songName">Enna Sona</span>
+                    <span class="songlistplay"><span class="timestamp">03:33 <i id="7" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="9">
+                    <span class="songName">Agar Tum Saath Ho</span>
+                    <span class="songlistplay"><span class="timestamp">05:41 <i id="8" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="10">
+                    <span class="songName">Nadaan Parindey</span>
+                    <span class="songlistplay"><span class="timestamp">06:26 <i id="9" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="11">
+                    <span class="songName">Mera Yaar</span>
+                    <span class="songlistplay"><span class="timestamp">05:51 <i id="10" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="12">
+                    <span class="songName">Tu Hi Haqeeqat</span>
+                    <span class="songlistplay"><span class="timestamp">05:02<i id="11" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i> 
+        </div>
+        <div class="songInfo">
+            <img src="./Images/8lLv.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Ravi</span>
+        </div>
+    </div>
+    <script src="./CSS/JS/script.js"></script>
+    <script src="https://kit.fontawesome.com/b2a96e5457.js" crossorigin="anonymous"></script>
+</body>
+</html>
